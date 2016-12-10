@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.joshii.takeyourtime.LoginAdministratorActivity"
+    android:background="#edeff1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#2d4257">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Take your TIME"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Provide your Login Credentials or Tap your NFC Card to Login"
+            android:id="@+id/textView_explanation"
+            android:textAlignment="center"
+            android:textColor="#7d7d7d"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUsername"
+            android:inputType="text"
+            android:hint="Username"
+            android:textColor="#000000"
+            android:textColorHint="#9a9a9a" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPassword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#9a9a9a" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Login"
+            android:id="@+id/btnLoginAdmin"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_style"
+            android:textColor="#ffffff"
+            android:onClick="Login_Click"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Connection Settings"
+            android:id="@+id/btnConnectionSettings"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_style"
+            android:textColor="#ffffff"
+            android:onClick="btnConnectionSettings_Click"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_style"
+    card_view:cardBackgroundColor="@color/dark"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="2dp"
+    android:layout_margin="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/button_style"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/className"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Class Name"/>
+
+        <TextView
+            android:id="@+id/classNoOfStudents"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="0 Student(s)"/>
+
+        <TextView
+            android:id="@+id/classSubjectName"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Subject Name"/>
+
+        <TextView
+            android:id="@+id/classDay"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Class Day"/>
+
+        <TextView
+            android:id="@+id/classRoom"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Class Room"/>
+
+        <TextView
+            android:id="@+id/classTime"
+            android:textColor="#54d7ff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="00:00 AM/PM - 00:00 AM/PM"/>
+        <TextView
+            android:id="@+id/classID"
+            android:textColor="@color/dark"
+            android:textSize="10dp"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Class ID"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

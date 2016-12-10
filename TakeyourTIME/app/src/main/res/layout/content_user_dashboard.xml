@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.joshii.takeyourtime.UserDashboard"
+    tools:showIn="@layout/app_bar_user_dashboard"
+    android:background="#edeff1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:background="@color/light">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:padding="20dp"
+            android:background="@color/dark"
+            android:text="This device was not set in any room"
+            android:id="@+id/lblRoomSetStatus"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnSetDeviceRoom"
+                    android:text="Set Device Room"
+                    android:textColor="#ffffff"
+                    android:padding="20dp"
+                    android:background="@drawable/button_style"
+                    android:onClick="btnSetDeviceRoom_Click"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnStartAttendanceMonitoring"
+                    android:text="Start Attendance Monitoring"
+                    android:textColor="#ffffff"
+                    android:padding="20dp"
+                    android:background="@drawable/button_style"
+                    android:layout_marginTop="2dp"
+                    android:onClick="btnStartAttendanceMonitoring_Click" />
+
+                <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnListOfClasses"
+                android:text="List of Classes"
+                android:textColor="#ffffff"
+                android:padding="20dp"
+                android:background="@drawable/button_style"
+                android:layout_marginTop="2dp"
+                android:onClick="btnListOfClasses_Click" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

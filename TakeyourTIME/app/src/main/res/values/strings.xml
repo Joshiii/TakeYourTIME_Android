@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Take your TIME</string>
+    <string name="title_activity_main">Take your TIME</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_administrator">Login as Administrator</string>
+    <string name="title_activity_user_dashboard">Admin Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_attendance_monitoring">AttendanceMonitoringActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_nfcreader_mode">NFC Reader Mode</string>
+</resources>

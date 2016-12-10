@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#00aedb</color>
+    <color name="buttonPressed">#5b7895</color>
+    <color name="buttonUnpressed">#2d4257</color>
+    <color name="header">#2d4257</color>
+    <color name="dark">#2d4257</color>
+    <color name="light">#edeff1</color>
+    <color name="white">#ffffff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="attendance_in">#00c853</color>
+    <color name="attendance_out">#ff9800</color>
+    <color name="attendance_error">#fe7073</color>
+</resources>
